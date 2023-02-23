@@ -1,10 +1,14 @@
 package philips.devinhouse;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Clinica {
     String nomeClinica;
     String cnpjClinica;
     String logradouroClinica;
     Integer codigoClinica;
+    List<Cliente> listaClientes = new ArrayList<>();
 
     public float CalcularIMC(float peso, float altura){
 
