@@ -4,11 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Clinica {
+    private String nomeDono;
     private String nomeClinica;
     private String cnpjClinica;
     private String logradouroClinica;
     private Integer codigoClinica;
     private List<Cliente> listaClientes = new ArrayList<>();
+
+    public Clinica(String dono){
+        this.nomeDono = dono;
+    }
+    public Clinica(String dono, List<Cliente> clientes) {
+        this.nomeDono = dono;
+        this.listaClientes = clientes;
+    }
 
     public static float CalcularIMC(float peso, float altura){
 
@@ -82,5 +91,13 @@ public class Clinica {
     //metodo para adicionar clientes a lista de clientes
     public void addCliente(Cliente cliente) {
         this.listaClientes.add(cliente);
+    }
+
+    public String getNomeDono() {
+        return nomeDono;
+    }
+
+    public void setNomeDono(String nomeDono) {
+        this.nomeDono = nomeDono;
     }
 }

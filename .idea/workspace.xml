@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="009c0369-914f-4922-bde0-566b06bc65b9" name="Changes" comment="Exercício 3">
+    <list default="true" id="009c0369-914f-4922-bde0-566b06bc65b9" name="Changes" comment="Exercício 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/philips/devinhouse/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/philips/devinhouse/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/philips/devinhouse/Clinica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/philips/devinhouse/Clinica.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +68,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677175110304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Exercício 4">
+      <created>1677175506878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677175506878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercício 1" />
     <MESSAGE value="Exercício 2" />
     <MESSAGE value="Exercício 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercício 3" />
+    <MESSAGE value="Exercício 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício 4" />
   </component>
 </project>

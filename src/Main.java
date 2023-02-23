@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Digite a altura (metros):");
         float altura = scanner.nextFloat();
 
-        Clinica clinica = new Clinica();
+        Clinica clinica = new Clinica("João");
         clinica.CalcularIMC(peso, altura);
 
     }
