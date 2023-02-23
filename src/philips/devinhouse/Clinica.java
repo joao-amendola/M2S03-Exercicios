@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Clinica {
-    String nomeClinica;
-    String cnpjClinica;
-    String logradouroClinica;
-    Integer codigoClinica;
-    List<Cliente> listaClientes = new ArrayList<>();
+    private String nomeClinica;
+    private String cnpjClinica;
+    private String logradouroClinica;
+    private Integer codigoClinica;
+    private List<Cliente> listaClientes = new ArrayList<>();
 
-    public float CalcularIMC(float peso, float altura){
+    public static float CalcularIMC(float peso, float altura){
 
         float imc = peso / (altura*altura);
 
@@ -37,5 +37,50 @@ public class Clinica {
             System.out.println("OBESIDADE GRAVE");
             return imc;
         }
+    }
+
+    public String getCnpjClinica() {
+        return cnpjClinica;
+    }
+
+    public void setCnpjClinica(String cnpjClinica) {
+        this.cnpjClinica = cnpjClinica;
+    }
+
+    public String getNomeClinica() {
+        return nomeClinica;
+    }
+
+    public void setNomeClinica(String nomeClinica) {
+        this.nomeClinica = nomeClinica;
+    }
+
+    public String getLogradouroClinica() {
+        return logradouroClinica;
+    }
+
+    public void setLogradouroClinica(String logradouroClinica) {
+        this.logradouroClinica = logradouroClinica;
+    }
+
+    public Integer getCodigoClinica() {
+        return codigoClinica;
+    }
+
+    public void setCodigoClinica(Integer codigoClinica) {
+        this.codigoClinica = codigoClinica;
+    }
+
+    public List<Cliente> getListaClientes() {
+        return listaClientes;
+    }
+
+    public void setListaClientes(List<Cliente> listaClientes) {
+        this.listaClientes = listaClientes;
+    }
+
+    //metodo para adicionar clientes a lista de clientes
+    public void addCliente(Cliente cliente) {
+        this.listaClientes.add(cliente);
     }
 }
